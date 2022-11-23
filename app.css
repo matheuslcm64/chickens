@@ -52,12 +52,32 @@ html, body {
   height: 100%;
 }
 
+.container{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.title_container{
+    position: relative;
+    height: 400px;
+}
+
+.title_custom{
+    background-color: rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+    font: 7em/1 Open Sans, Impact;
+
+}
+
 body {
-  background: #111;
-  background-size: 0.2em 100%;
-  font: 5em/1 Open Sans, Impact;
-  text-transform: uppercase;
-  margin: 0;
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+body::after{
+    content: '';
+    display: block;
+    width: 200px;
+    height: 200px;
 }
 
 svg {
