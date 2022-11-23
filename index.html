@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chickens</title>
-
+    <link rel="stylesheet" href="app.css">
     <style>
         body{
             background-color: #ccc;
@@ -14,11 +14,26 @@
     </style>
 </head>
 <body>
-    <h1>Chickens!</h1>
-    <p>Qui occaecat ut voluptate commodo magna Lorem excepteur sint cillum laboris quis. Lorem elit velit aliqua sunt mollit enim quis incididunt labore velit excepteur proident incididunt. Esse adipisicing magna duis elit laborum. Incididunt aliqua aliquip non id voluptate id. Ipsum ad in pariatur culpa. Irure ullamco ullamco velit do pariatur pariatur aliqua ut fugiat. Quis elit aliquip sit veniam ea reprehenderit.
+    <!-- https://codepen.io/cesar2535/pen/ByYXpN/ -->
+    <svg viewBox="0 0 600 300">
+        <!-- Symbol-->
+        <symbol id="s-text">
+          <text text-anchor="middle" x="50%" y="50%" dy=".35em">Chickens!</text>
+        </symbol>
+        <!-- Duplicate symbols-->
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+    </svg>    
+    
+    <p>
+        Qui occaecat ut voluptate commodo magna Lorem excepteur sint cillum laboris quis. Lorem elit velit aliqua sunt mollit enim quis incididunt labore velit excepteur proident incididunt. Esse adipisicing magna duis elit laborum. Incididunt aliqua aliquip non id voluptate id. Ipsum ad in pariatur culpa. Irure ullamco ullamco velit do pariatur pariatur aliqua ut fugiat. Quis elit aliquip sit veniam ea reprehenderit.
 
-Tempor voluptate ullamco eiusmod et. Sint aute deserunt laboris officia culpa eiusmod pariatur. Proident fugiat cillum reprehenderit eu ipsum sunt.
+        Tempor voluptate ullamco eiusmod et. Sint aute deserunt laboris officia culpa eiusmod pariatur. Proident fugiat cillum reprehenderit eu ipsum sunt.
 
-Duis deserunt sit dolor voluptate nulla mollit in veniam aliqua ea enim laboris sint. Exercitation ea est proident elit excepteur mollit consectetur labore proident. Lorem aliquip officia cupidatat cupidatat sit non. Ad voluptate non do consequat elit consequat irure enim. Excepteur eiusmod consequat cupidatat sit ex ut fugiat ex Lorem labore. Ex mollit ut est adipisicing officia qui laborum ex ut et ad sit reprehenderit.</p>
+        Duis deserunt sit dolor voluptate nulla mollit in veniam aliqua ea enim laboris sint. Exercitation ea est proident elit excepteur mollit consectetur labore proident. Lorem aliquip officia cupidatat cupidatat sit non. Ad voluptate non do consequat elit consequat irure enim. Excepteur eiusmod consequat cupidatat sit ex ut fugiat ex Lorem labore. Ex mollit ut est adipisicing officia qui laborum ex ut et ad sit reprehenderit.
+    </p>
 </body>
 </html>
